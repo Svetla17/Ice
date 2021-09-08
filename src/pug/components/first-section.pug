@@ -1,0 +1,13 @@
+.first-section
+    div.container
+        
+        .first-section_card
+            mixin item(img, title, text)
+                .item
+                    img(src=img, alt=title).item_img
+                    .item_title=title
+                    .item_text=text
+            +item("./assets/imgs/car icon.png","Free Shipping","Last Chance! Free shipping on all orders ends today.")
+            +item("./assets/imgs/glass icon.png","Quick Packaging","Last Chance! Free shipping on all orders ends today.") 
+            +item("./assets/imgs/cash icon.png","100% Money Back","Last Chance! Free shipping on all orders ends today.")
+            +item("./assets/imgs/delivery icon.png","Fast Delivery","Last Chance! Free shipping on all orders ends today.")

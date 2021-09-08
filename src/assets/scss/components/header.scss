@@ -1,0 +1,179 @@
+// для каждого компонента нужно импортить переменные, чтобы их использовать
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+
+.header {
+    background-color: $c-primary;
+    overflow: hidden;
+        
+}
+
+.header_row {         
+   height: 86.2rem; 
+    
+    
+}    
+.container {
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+.header_menu {    
+    display: flex;
+   
+}
+
+.logo_img {
+    margin-right: 26.6rem;   
+    
+        &:hover {        
+            box-shadow: 15px 15px 30px  rgba(237, 248, 79, 0.993);
+            border-radius: 7px;
+            transform: translateY(10px);
+        }
+}
+
+.header_links {
+    margin-top: 2.7rem;       
+}    
+    
+.link_pink {
+    font-family: $body-font;    
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 180%;  
+    color: #D23166;
+    padding-right: 3.8rem;
+        
+        &:hover {
+            color: #520d40;
+        }   
+}
+
+.link {
+    padding-right: 3.9rem;
+    font-family: $body-font;    
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 160%;
+    color: #150101;
+    opacity: 0.6;
+    transform: rotate(-0.23deg);
+    
+        &:hover {
+            color: #eb0894;
+            opacity: 1;
+        }   
+}
+
+.link_but {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-family: $headers-font;    
+    font-weight: bold;
+    font-size: 1.6rem;    
+    color: #FAFAFA;
+    background: $c-secondary;
+    border-radius: 5px;
+    padding: 1.5rem 5rem 1.4rem;
+    margin-left: 13.2rem;
+        
+        &:hover {
+        background: #eb0894;    
+        color: #030522ef;
+        }   
+}
+
+.header_content {
+    display: flex;
+    
+}    
+
+.header-span {
+    font-family: $body-font;    
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 160%;
+    letter-spacing: 0.1em;
+    color: $c-text;
+}
+
+
+.header_content-text {
+    margin-top: 19.6rem;
+    margin-left: 0.6rem;
+    
+}
+.header-title {
+    font-family: $secondary-font;    
+    font-weight: normal;
+    font-size: 5.733rem;
+    line-height: 120.5%; 
+    color: $c-text;
+    opacity: 0.9;
+    width: 66.5rem;
+    margin-bottom: 3rem;
+
+}
+.header-title_pink {
+    font-family: $secondary-font;    
+    font-weight: normal;
+    font-size: 5.733rem;
+    line-height: 120.5%; 
+    color: $c-secondary;
+    opacity: 0.9;
+}
+.header-description {
+    font-family: $headers-font;    
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 150%;  
+    color: $c-text;
+    opacity: 0.6;
+    width: 52.3rem;
+
+}
+.el-big {
+    position: absolute;
+    top: 40rem;
+    left: 101rem;
+}
+.el-sm {
+    position: absolute;
+    top: 74rem;
+    left: 105rem;
+}
+.milk {
+    position: absolute;  
+    z-index: 3;
+    top: 24rem;
+    left: 74.5rem;
+}
+.ice-gl {
+    position: relative;
+    top: 3.5rem;   
+    left: -3rem;
+}
+.link_but2 {
+    display: inline-block;    
+    font-family: $headers-font;    
+    font-weight: bold;
+    font-size: 1.6rem;    
+    color: #FAFAFA;
+    background: $c-secondary;
+    border-radius: 5px;
+    padding: 1.5rem 5rem 1.4rem;
+    margin-top: 4.5rem;
+        
+        &:hover {
+            background: #eb0894;
+            color: #030522ef;
+        }   
+
+}
+
+@media screen {
+    
+}

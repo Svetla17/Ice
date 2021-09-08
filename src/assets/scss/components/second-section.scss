@@ -1,0 +1,62 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.second-section {
+    background-color: $c-primary;
+    overflow: hidden;
+    height: 54.45rem;
+}
+.second-section_row {
+    display: flex;
+}
+.second-section_content {
+    margin-top: 13rem;
+    margin-left: 0.8rem;
+
+}
+.second-section_title {
+    font-family: $headers-font;    
+    font-weight: 600;
+    font-size: 4.42rem;
+    line-height: 4.9rem;
+    color: #150101;
+    padding-right: 10rem;
+    padding-bottom: 1.8rem
+}
+.second-section_text {
+    font-family: $body-font;    
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #150101;
+    opacity: 0.6;
+    padding-right: 2rem;
+}
+.ice-sm {
+    position: relative;
+    top: -8rem;
+    left: 1.5rem;
+
+}
+.ell-2sec {
+    position: relative;
+    top: -25rem;
+    left: 18rem;
+}
+.sec_but {
+    display: inline-block;
+    margin-top: 2.1rem;
+    font-family: $headers-font;    
+    font-weight: bold;
+    font-size: 1.6rem;    
+    color: #FAFAFA;
+    background: $c-secondary;
+    border-radius: 5px;
+    padding: 1.5rem 4.35rem 1.4rem;
+    
+        
+        &:hover {
+        background: #eb0894;    
+        color: #030522ef;
+        }   
+}

@@ -1,0 +1,54 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.first-section {
+    margin: 10rem 0;
+}
+.first-section_card {
+    display: flex;
+    
+}
+
+.item {
+    margin-right:3.9rem;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 25rem;
+    height: 20rem;
+    &:hover {        
+        box-shadow: 12px 12px 25px  rgba(237, 248, 79, 0.7);
+        border-radius: 7px;
+        transform: translateY(5px);
+    }
+
+}
+
+.item_img {
+   margin-top: 2.1rem;
+   margin-left: 1.3rem;
+   margin-bottom: 2.3rem;
+}
+.item_title {
+    margin-left: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-family: $headers-font;    
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 28px;    
+    color: #000000;
+}
+.item_text {
+    font-family: $headers-font;    
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    padding: 0 1.9rem 0 2.9rem; ;
+    
+}
+    
