@@ -1,0 +1,147 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.price-section {
+    margin-top: 12.5rem;
+}
+
+div.container {
+
+}
+.price-section_text {
+    
+}
+.price-section_title {
+    font-family: $headers-font;    
+    font-weight: 600;
+    font-size: 4.42rem;
+    line-height: 61px;    
+    color: #150101;
+    text-align: center;
+    margin-left: -5rem;
+    padding-bottom: 6.5rem;
+
+}
+.price-section_menu {
+
+}
+.list {
+    display: flex;
+    
+    
+}
+.item_list {
+  
+   
+}
+.item-red {
+    font-family: $body-font;    
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;  
+    color: #000000;
+    border-bottom: 3px solid #D64374;
+    margin: 0 4rem 0 13rem;
+        &:hover {
+            color: #eb0894;
+            border-bottom: 3.5px solid #1d060e;
+        }   
+
+}
+.item-gr {
+    font-family: $body-font;    
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;   
+    color: #000000;
+    opacity: 0.6;
+    padding-right: 4rem;
+    &:hover {
+        color: #eb0894;
+        
+    }   
+        
+    
+}
+.price-section_box {
+
+}
+
+.box-content {   
+    display: flex;
+    margin-top: 5rem;
+}
+
+.box-img {
+    max-width: 50%;
+}
+
+.box-text {
+    max-width: 50%;
+    margin: 5.9rem 2rem 0 9rem;
+}
+.ice-green-text {
+    font-family: $headers-font;    
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 3.6rem;   
+    color: #000000;
+    padding-bottom: 1.4rem;
+    
+}
+.ice-green-description {
+    font-family: $body-font;    
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 150%;   
+    color: #000000;
+    opacity: 0.7; 
+    padding-bottom: 2rem;  
+}
+.ice-green_price {
+    font-family:$headers-font;
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    color: #000000;
+    
+}
+.ice-green_price-non {
+    font-family: $headers-font;    
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    padding-left: 1rem;
+}
+.box-but {
+    
+    display: inline-block;    
+    font-family: $headers-font;    
+    font-weight: bold;
+    font-size: 1.6rem;    
+    color: #FAFAFA;
+    background: $c-secondary;
+    border-radius: 5px;
+    padding: 1.5rem 5rem 1.4rem;
+    margin: 0.75rem 4rem 0 0;
+    
+        
+        &:hover {
+        background: #eb0894;    
+        color: #030522ef;
+        }   
+
+}
+
+.box-content-rev {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.box-text-rev {
+    text-align: right;
+}
